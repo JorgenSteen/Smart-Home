@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
+	<Property Name="varPersistentID:{40F2E1A1-07C6-407C-967B-A5957A2C65CC}" Type="Ref">/My Computer/Shared_Variables.lvlib/Que ID for Sending</Property>
+	<Property Name="varPersistentID:{57070E54-84EF-4496-8D9E-9F03216B6ECC}" Type="Ref">/My Computer/Shared_Variables.lvlib/Que Error for Sending</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -20,6 +22,7 @@
 			<Item Name="Auto_send_to_MCU.vi" Type="VI" URL="../SubVI/Auto_send_to_MCU.vi"/>
 			<Item Name="Data_In_assessment.vi" Type="VI" URL="../Typedef/Data_In_assessment.vi"/>
 			<Item Name="Data_to_uart_format.vi" Type="VI" URL="../SubVI/Data_to_uart_format.vi"/>
+			<Item Name="Que values for sending.vi" Type="VI" URL="../SubVI/Que values for sending.vi"/>
 			<Item Name="Raw_input_to_sorted.vi" Type="VI" URL="../SubVI/Raw_input_to_sorted.vi"/>
 			<Item Name="Read_and_plot_files.vi" Type="VI" URL="../SubVI/Read_and_plot_files.vi"/>
 			<Item Name="Send_to_MCU.vi" Type="VI" URL="../SubVI/Send_to_MCU.vi"/>
@@ -32,8 +35,11 @@
 			<Item Name="Serial_config_cluster.ctl" Type="VI" URL="../Typedef/Serial_config_cluster.ctl"/>
 			<Item Name="Type_of_message_to_MCU.ctl" Type="VI" URL="../Typedef/Type_of_message_to_MCU.ctl"/>
 		</Item>
+		<Item Name="Communication_Handler.vi" Type="VI" URL="../Typedef/Communication_Handler.vi"/>
 		<Item Name="Display_data.vi" Type="VI" URL="../SubVI/Display_data.vi"/>
+		<Item Name="Initilizer.vi" Type="VI" URL="../../Users/jstee/OneDrive/Labview/Labview Toolbox/Initilizer.vi"/>
 		<Item Name="Main smart home.vi" Type="VI" URL="../Main smart home.vi"/>
+		<Item Name="Shared_Variables.lvlib" Type="Library" URL="../../Users/jstee/OneDrive/Labview/Labview Toolbox/Shared_Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
