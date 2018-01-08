@@ -18,11 +18,14 @@
 			<Item Name="Extract_MCU_name_from_array.vi" Type="VI" URL="../Typedef/Extract_MCU_name_from_array.vi"/>
 			<Item Name="Integrate.vi" Type="VI" URL="../SubVI/Integrate.vi"/>
 		</Item>
+		<Item Name="Small" Type="Folder">
+			<Item Name="Que.-startvalue for MCU-com.vi" Type="VI" URL="../SubVI/Que.-startvalue for MCU-com.vi"/>
+		</Item>
 		<Item Name="Sub_VI" Type="Folder">
 			<Item Name="Auto_send_to_MCU.vi" Type="VI" URL="../SubVI/Auto_send_to_MCU.vi"/>
+			<Item Name="Communication_Handler.vi" Type="VI" URL="../Typedef/Communication_Handler.vi"/>
 			<Item Name="Data_In_assessment.vi" Type="VI" URL="../Typedef/Data_In_assessment.vi"/>
 			<Item Name="Data_to_uart_format.vi" Type="VI" URL="../SubVI/Data_to_uart_format.vi"/>
-			<Item Name="Que values for sending.vi" Type="VI" URL="../SubVI/Que values for sending.vi"/>
 			<Item Name="Raw_input_to_sorted.vi" Type="VI" URL="../SubVI/Raw_input_to_sorted.vi"/>
 			<Item Name="Read_and_plot_files.vi" Type="VI" URL="../SubVI/Read_and_plot_files.vi"/>
 			<Item Name="Send_to_MCU.vi" Type="VI" URL="../SubVI/Send_to_MCU.vi"/>
@@ -35,11 +38,10 @@
 			<Item Name="Serial_config_cluster.ctl" Type="VI" URL="../Typedef/Serial_config_cluster.ctl"/>
 			<Item Name="Type_of_message_to_MCU.ctl" Type="VI" URL="../Typedef/Type_of_message_to_MCU.ctl"/>
 		</Item>
-		<Item Name="Communication_Handler.vi" Type="VI" URL="../Typedef/Communication_Handler.vi"/>
 		<Item Name="Display_data.vi" Type="VI" URL="../SubVI/Display_data.vi"/>
-		<Item Name="Initilizer.vi" Type="VI" URL="../../Users/jstee/OneDrive/Labview/Labview Toolbox/Initilizer.vi"/>
+		<Item Name="Initilizer.vi" Type="VI" URL="/D/OneDrive/Labview/Skole/Embedded/SubVI/Initilizer.vi"/>
 		<Item Name="Main smart home.vi" Type="VI" URL="../Main smart home.vi"/>
-		<Item Name="Shared_Variables.lvlib" Type="Library" URL="../../Users/jstee/OneDrive/Labview/Labview Toolbox/Shared_Variables.lvlib"/>
+		<Item Name="Shared_Variables.lvlib" Type="Library" URL="/D/OneDrive/Labview/Skole/Embedded/SubVI/Shared_Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
