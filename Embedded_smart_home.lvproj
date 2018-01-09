@@ -1,8 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
-	<Property Name="varPersistentID:{38709931-426E-4A81-BD65-B5098AFB409F}" Type="Ref">/My Computer/Shared_Variables.lvlib/MAIN STOP</Property>
-	<Property Name="varPersistentID:{40F2E1A1-07C6-407C-967B-A5957A2C65CC}" Type="Ref">/My Computer/Shared_Variables.lvlib/Que ID for Sending</Property>
-	<Property Name="varPersistentID:{57070E54-84EF-4496-8D9E-9F03216B6ECC}" Type="Ref">/My Computer/Shared_Variables.lvlib/Que Error for Sending</Property>
+	<Property Name="varPersistentID:{92A3BB43-3D74-4857-97B2-EE379F0E7221}" Type="Ref">/My Computer/Shared_Variables.lvlib/MAIN STOP</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -19,6 +17,8 @@
 		<Item Name="Communication functions" Type="Folder">
 			<Item Name="Auto_send_to_MCU.vi" Type="VI" URL="../SubVI/Auto_send_to_MCU.vi"/>
 			<Item Name="Communication_Handler.vi" Type="VI" URL="../Typedef/Communication_Handler.vi"/>
+			<Item Name="Configurate Serial Communication Settings.vi" Type="VI" URL="../Communication VI/Configurate Serial Communication Settings.vi"/>
+			<Item Name="Configure Critical Levels.vi" Type="VI" URL="../Communication VI/Configure Critical Levels.vi"/>
 			<Item Name="Que.-Read.vi" Type="VI" URL="../SubVI/Que.-Read.vi"/>
 			<Item Name="Que.-startvalue for MCU-com.vi" Type="VI" URL="../SubVI/Que.-startvalue for MCU-com.vi"/>
 			<Item Name="Raw_input_to_sorted.vi" Type="VI" URL="../SubVI/Raw_input_to_sorted.vi"/>
@@ -37,6 +37,7 @@
 			<Item Name="Data_to_uart_format.vi" Type="VI" URL="../SubVI/Data_to_uart_format.vi"/>
 			<Item Name="Read_and_plot_files.vi" Type="VI" URL="../SubVI/Read_and_plot_files.vi"/>
 			<Item Name="Serial_read.vi" Type="VI" URL="../Serial_read.vi"/>
+			<Item Name="Settings_page.vi" Type="VI" URL="../SubVI/Settings_page.vi"/>
 			<Item Name="Testing.vi" Type="VI" URL="../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/Instrument IO/Serial/support/Testing.vi"/>
 		</Item>
 		<Item Name="Typedef" Type="Folder">
