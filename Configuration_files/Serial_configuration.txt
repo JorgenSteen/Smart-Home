@@ -303,6 +303,6 @@
 </EW>
 <Boolean>
 <Name>End Write on</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>

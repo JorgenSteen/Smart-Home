@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
-	<Property Name="varPersistentID:{92A3BB43-3D74-4857-97B2-EE379F0E7221}" Type="Ref">/My Computer/Shared_Variables.lvlib/MAIN STOP</Property>
+	<Property Name="varPersistentID:{92A3BB43-3D74-4857-97B2-EE379F0E7221}" Type="Ref">/My Computer/Shared_Variables.lvlib/STOP ALL</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -31,14 +31,16 @@
 			<Item Name="Extract_MCU_name_from_array.vi" Type="VI" URL="../Typedef/Extract_MCU_name_from_array.vi"/>
 			<Item Name="Integrate.vi" Type="VI" URL="../SubVI/Integrate.vi"/>
 		</Item>
-		<Item Name="Small" Type="Folder"/>
+		<Item Name="Small" Type="Folder">
+			<Item Name="test1.vi" Type="VI" URL="../SubVI/test1.vi"/>
+			<Item Name="test2.vi" Type="VI" URL="../SubVI/test2.vi"/>
+		</Item>
 		<Item Name="Sub_VI" Type="Folder">
 			<Item Name="Data_In_assessment.vi" Type="VI" URL="../Typedef/Data_In_assessment.vi"/>
 			<Item Name="Data_to_uart_format.vi" Type="VI" URL="../SubVI/Data_to_uart_format.vi"/>
 			<Item Name="Read_and_plot_files.vi" Type="VI" URL="../SubVI/Read_and_plot_files.vi"/>
 			<Item Name="Serial_read.vi" Type="VI" URL="../Serial_read.vi"/>
 			<Item Name="Settings_page.vi" Type="VI" URL="../SubVI/Settings_page.vi"/>
-			<Item Name="Testing.vi" Type="VI" URL="../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/Instrument IO/Serial/support/Testing.vi"/>
 		</Item>
 		<Item Name="Typedef" Type="Folder">
 			<Item Name="MCU_addresses.ctl" Type="VI" URL="../Typedef/MCU_addresses.ctl"/>
@@ -47,9 +49,9 @@
 			<Item Name="Type_of_message_to_MCU.ctl" Type="VI" URL="../Typedef/Type_of_message_to_MCU.ctl"/>
 		</Item>
 		<Item Name="Display_data.vi" Type="VI" URL="../SubVI/Display_data.vi"/>
-		<Item Name="Initilizer.vi" Type="VI" URL="/D/OneDrive/Labview/Skole/Embedded/SubVI/Initilizer.vi"/>
 		<Item Name="Main smart home.vi" Type="VI" URL="../Main smart home.vi"/>
 		<Item Name="Shared_Variables.lvlib" Type="Library" URL="../Shared_Variables.lvlib"/>
+		<Item Name="SubVI_blueprint.vi" Type="VI" URL="../SubVI/SubVI_blueprint.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
