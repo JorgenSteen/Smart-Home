@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="varPersistentID:{92A3BB43-3D74-4857-97B2-EE379F0E7221}" Type="Ref">/My Computer/Shared_Variables.lvlib/STOP ALL</Property>
+	<Property Name="varPersistentID:{B607E3DC-5EC1-42EB-B79D-9C0F3293382F}" Type="Ref">/My Computer/Shared_Variables.lvlib/Com_ Runnings</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -35,6 +36,9 @@
 			<Item Name="Extract_MCU_name_from_array.vi" Type="VI" URL="../Typedef/Extract_MCU_name_from_array.vi"/>
 			<Item Name="Integrate.vi" Type="VI" URL="../SubVI/Integrate.vi"/>
 		</Item>
+		<Item Name="Mobile com" Type="Folder">
+			<Item Name="BT_to_neon.vi" Type="VI" URL="../Communication VI/BT_to_neon.vi"/>
+		</Item>
 		<Item Name="Small" Type="Folder">
 			<Item Name="test1.vi" Type="VI" URL="../SubVI/test1.vi"/>
 			<Item Name="test2.vi" Type="VI" URL="../SubVI/test2.vi"/>
@@ -49,11 +53,11 @@
 			<Item Name="Message_info.ctl" Type="VI" URL="../Typedef/Message_info.ctl"/>
 			<Item Name="Serial_config_cluster.ctl" Type="VI" URL="../Typedef/Serial_config_cluster.ctl"/>
 			<Item Name="Type_of_message_to_MCU.ctl" Type="VI" URL="../Typedef/Type_of_message_to_MCU.ctl"/>
+			<Item Name="Type_of_request.ctl" Type="VI" URL="../Typedef/Type_of_request.ctl"/>
 		</Item>
 		<Item Name="Main smart home.vi" Type="VI" URL="../Main smart home.vi"/>
 		<Item Name="Shared_Variables.lvlib" Type="Library" URL="../Shared_Variables.lvlib"/>
 		<Item Name="SubVI_blueprint.vi" Type="VI" URL="../SubVI/SubVI_blueprint.vi"/>
-		<Item Name="Type_of_request.ctl" Type="VI" URL="../Typedef/Type_of_request.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
