@@ -22,6 +22,7 @@
 			<Item Name="Configure Critical Levels.vi" Type="VI" URL="../Communication VI/Configure Critical Levels.vi"/>
 			<Item Name="Data_In_assessment.vi" Type="VI" URL="../Typedef/Data_In_assessment.vi"/>
 			<Item Name="Data_to_uart_format.vi" Type="VI" URL="../SubVI/Data_to_uart_format.vi"/>
+			<Item Name="Extract_MCU_name_from_array.vi" Type="VI" URL="../Typedef/Extract_MCU_name_from_array.vi"/>
 			<Item Name="Que.-Read.vi" Type="VI" URL="../SubVI/Que.-Read.vi"/>
 			<Item Name="Que.-startvalue for MCU-com.vi" Type="VI" URL="../SubVI/Que.-startvalue for MCU-com.vi"/>
 			<Item Name="Raw_input_to_sorted.vi" Type="VI" URL="../SubVI/Raw_input_to_sorted.vi"/>
@@ -33,7 +34,6 @@
 			<Item Name="Average_array.vi" Type="VI" URL="../SubVI/Average_array.vi"/>
 			<Item Name="Derivering.vi" Type="VI" URL="../SubVI/Derivering.vi"/>
 			<Item Name="Display_data.vi" Type="VI" URL="../SubVI/Display_data.vi"/>
-			<Item Name="Extract_MCU_name_from_array.vi" Type="VI" URL="../Typedef/Extract_MCU_name_from_array.vi"/>
 			<Item Name="Integrate.vi" Type="VI" URL="../SubVI/Integrate.vi"/>
 		</Item>
 		<Item Name="Mobile com" Type="Folder">
