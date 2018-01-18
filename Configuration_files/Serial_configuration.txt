@@ -12,7 +12,7 @@
 <Refnum>
 <Name>VISA resource name</Name>
 <RefKind>VISA</RefKind>
-<Val>COM5</Val>
+<Val>COM9</Val>
 </Refnum>
 <U32>
 <Name>baud rate</Name>
