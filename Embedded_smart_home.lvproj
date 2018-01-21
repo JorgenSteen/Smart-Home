@@ -17,11 +17,11 @@
 		</Item>
 		<Item Name="Communication functions" Type="Folder">
 			<Item Name="Auto_send_to_MCU.vi" Type="VI" URL="../SubVI/Auto_send_to_MCU.vi"/>
+			<Item Name="Byte_array_to_Com_standard.vi" Type="VI" URL="../SubVI/Byte_array_to_Com_standard.vi"/>
 			<Item Name="Communication_Handler.vi" Type="VI" URL="../Typedef/Communication_Handler.vi"/>
 			<Item Name="Configurate Serial Communication Settings.vi" Type="VI" URL="../Communication VI/Configurate Serial Communication Settings.vi"/>
 			<Item Name="Configure Critical Levels.vi" Type="VI" URL="../Communication VI/Configure Critical Levels.vi"/>
 			<Item Name="Data_In_assessment.vi" Type="VI" URL="../Typedef/Data_In_assessment.vi"/>
-			<Item Name="Data_to_uart_format.vi" Type="VI" URL="../SubVI/Data_to_uart_format.vi"/>
 			<Item Name="Extract_MCU_name_from_array.vi" Type="VI" URL="../Typedef/Extract_MCU_name_from_array.vi"/>
 			<Item Name="Que.-Read.vi" Type="VI" URL="../SubVI/Que.-Read.vi"/>
 			<Item Name="Que.-startvalue for MCU-com.vi" Type="VI" URL="../SubVI/Que.-startvalue for MCU-com.vi"/>
