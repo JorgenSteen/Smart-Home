@@ -82,6 +82,7 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="Data_to_uart_format.vi" Type="VI" URL="../SubVI/Data_to_uart_format.vi"/>
 			<Item Name="Serial - ASCII Characters.ctl" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/Instrument IO/Serial/support/Serial - ASCII Characters.ctl"/>
 			<Item Name="Serial - Settings.ctl" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/Instrument IO/Serial/support/Serial - Settings.ctl"/>
 			<Item Name="Serial - XON-XOFF Characters.ctl" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/Instrument IO/Serial/support/Serial - XON-XOFF Characters.ctl"/>
