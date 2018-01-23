@@ -12,7 +12,7 @@
 <Refnum>
 <Name>VISA resource name</Name>
 <RefKind>VISA</RefKind>
-<Val>COM9</Val>
+<Val>COM19</Val>
 </Refnum>
 <U32>
 <Name>baud rate</Name>
@@ -303,6 +303,6 @@
 </EW>
 <Boolean>
 <Name>End Write on</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>

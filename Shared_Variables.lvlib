@@ -13,7 +13,7 @@
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="STOP ALL" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Initial Value,Network</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Initial Value:Value" Type="Str">False</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
