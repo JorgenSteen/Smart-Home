@@ -22,7 +22,9 @@
 			<Item Name="Configurate Serial Communication Settings.vi" Type="VI" URL="../Communication VI/Configurate Serial Communication Settings.vi"/>
 			<Item Name="Configure Critical Levels.vi" Type="VI" URL="../Communication VI/Configure Critical Levels.vi"/>
 			<Item Name="Data_In_assessment.vi" Type="VI" URL="../Typedef/Data_In_assessment.vi"/>
+			<Item Name="Extract_DATA_ID_from_header.vi" Type="VI" URL="../SubVI/Extract_DATA_ID_from_header.vi"/>
 			<Item Name="Extract_MCU_name_from_array.vi" Type="VI" URL="../Typedef/Extract_MCU_name_from_array.vi"/>
+			<Item Name="Incomming Array Handler.vi" Type="VI" URL="../SubVI/Incomming Array Handler.vi"/>
 			<Item Name="Que.-Read.vi" Type="VI" URL="../SubVI/Que.-Read.vi"/>
 			<Item Name="Que.-startvalue for MCU-com.vi" Type="VI" URL="../SubVI/Que.-startvalue for MCU-com.vi"/>
 			<Item Name="Raw_input_to_sorted.vi" Type="VI" URL="../SubVI/Raw_input_to_sorted.vi"/>
