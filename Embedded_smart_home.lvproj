@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="varPersistentID:{92A3BB43-3D74-4857-97B2-EE379F0E7221}" Type="Ref">/My Computer/Shared_Variables.lvlib/STOP ALL</Property>
 	<Property Name="varPersistentID:{B607E3DC-5EC1-42EB-B79D-9C0F3293382F}" Type="Ref">/My Computer/Shared_Variables.lvlib/Com_ Runnings</Property>
+	<Property Name="varPersistentID:{BC223E38-88CE-4996-851F-E80DBCBFBEB6}" Type="Ref">/My Computer/Shared_Variables.lvlib/New_message_Alarm</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -13,6 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Abilities" Type="Folder">
+			<Item Name="Fan_control.vi" Type="VI" URL="../SubVI/Fan_control.vi"/>
 			<Item Name="Led Matrix Control.vi" Type="VI" URL="../SubVI/Led Matrix Control.vi"/>
 		</Item>
 		<Item Name="Communication functions" Type="Folder">
