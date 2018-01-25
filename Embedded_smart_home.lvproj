@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="varPersistentID:{92A3BB43-3D74-4857-97B2-EE379F0E7221}" Type="Ref">/My Computer/Shared_Variables.lvlib/STOP ALL</Property>
 	<Property Name="varPersistentID:{B607E3DC-5EC1-42EB-B79D-9C0F3293382F}" Type="Ref">/My Computer/Shared_Variables.lvlib/Com_ Runnings</Property>
+	<Property Name="varPersistentID:{BC223E38-88CE-4996-851F-E80DBCBFBEB6}" Type="Ref">/My Computer/Shared_Variables.lvlib/New_message_Alarm</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -13,6 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Abilities" Type="Folder">
+			<Item Name="Fan_control.vi" Type="VI" URL="../SubVI/Fan_control.vi"/>
 			<Item Name="Led Matrix Control.vi" Type="VI" URL="../SubVI/Led Matrix Control.vi"/>
 		</Item>
 		<Item Name="Communication functions" Type="Folder">
@@ -27,6 +29,7 @@
 			<Item Name="Incomming Array Handler.vi" Type="VI" URL="../SubVI/Incomming Array Handler.vi"/>
 			<Item Name="Que.-Read.vi" Type="VI" URL="../SubVI/Que.-Read.vi"/>
 			<Item Name="Que.-startvalue for MCU-com.vi" Type="VI" URL="../SubVI/Que.-startvalue for MCU-com.vi"/>
+			<Item Name="Que.-startvalue for Serial Input.vi" Type="VI" URL="../SubVI/Que.-startvalue for Serial Input.vi"/>
 			<Item Name="Raw_input_to_sorted.vi" Type="VI" URL="../SubVI/Raw_input_to_sorted.vi"/>
 			<Item Name="Send_string_to_MCU.vi" Type="VI" URL="../SubVI/Send_string_to_MCU.vi"/>
 			<Item Name="Send_to_MCU.vi" Type="VI" URL="../SubVI/Send_to_MCU.vi"/>
@@ -34,9 +37,11 @@
 		</Item>
 		<Item Name="Funksjons SubVI" Type="Folder">
 			<Item Name="Average_array.vi" Type="VI" URL="../SubVI/Average_array.vi"/>
+			<Item Name="Avrg_minute_hour_day.vi" Type="VI" URL="../SubVI/Avrg_minute_hour_day.vi"/>
 			<Item Name="Derivering.vi" Type="VI" URL="../SubVI/Derivering.vi"/>
 			<Item Name="Display_data.vi" Type="VI" URL="../SubVI/Display_data.vi"/>
 			<Item Name="Integrate.vi" Type="VI" URL="../SubVI/Integrate.vi"/>
+			<Item Name="Live_data_feed.vi" Type="VI" URL="../SubVI/Live_data_feed.vi"/>
 		</Item>
 		<Item Name="Mobile com" Type="Folder">
 			<Item Name="BT_to_neon.vi" Type="VI" URL="../Communication VI/BT_to_neon.vi"/>
@@ -51,6 +56,7 @@
 			<Item Name="Settings_page.vi" Type="VI" URL="../SubVI/Settings_page.vi"/>
 		</Item>
 		<Item Name="Typedef" Type="Folder">
+			<Item Name="Data_ID.ctl" Type="VI" URL="../Typedef/Data_ID.ctl"/>
 			<Item Name="MCU_addresses.ctl" Type="VI" URL="../Typedef/MCU_addresses.ctl"/>
 			<Item Name="Message_info.ctl" Type="VI" URL="../Typedef/Message_info.ctl"/>
 			<Item Name="Serial_config_cluster.ctl" Type="VI" URL="../Typedef/Serial_config_cluster.ctl"/>
